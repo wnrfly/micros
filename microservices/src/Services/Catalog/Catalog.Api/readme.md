@@ -5,3 +5,10 @@ docker logs -f shopping-mongo
 
 open iteractive command line
 docker exec -it shopping-mongo /bin/bash
+
+test mongo
+mongosh
+
+create database
+use CatalogDb
+
