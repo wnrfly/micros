@@ -6,7 +6,7 @@ docker logs -f shopping-mongo
 open iteractive command line
 docker exec -it shopping-mongo /bin/bash
 
-test mongo
+open shell mongo
 mongosh
 
 create database
